@@ -8,6 +8,32 @@
     <title>Document</title>
   </head>
   <body>
+    <div id="main-container">
+      <div id="address-container">
+        <div class="fade"></div>
+        <div class="address-content">
+          <h2><ion-icon name="navigate-outline"></ion-icon>Address</h2>
+          <p>Hopeful Street, 123</p>
+          <h2><ion-icon name="call-outline"></ion-icon>Contact</h2>
+          <p>+1 9999 9999</p>
+          <h2><ion-icon name="mail-outline"></ion-icon>Email</h2>
+          <p>myemail@contact.com</p>
+        </div>
+      </div>
+      <div id="form-container">
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" name="name" placeholder="How do you like to be called?" />
+          <label for="email">Email:</label>
+          <input type="text" name="email" placeholder="Your best e-mail!" />
+          <label for="phone">Phone Number:</label>
+          <input type="text" name="phone" placeholder="Your phone number if you want a faster reply!" />
+          <label for="message">Your message:</label>
+          <textarea name="message" placeholder="How can we help you?"></textarea>
+          <input type="submit" value="Send message" />
+        </form>
+      </div>
+    </div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
