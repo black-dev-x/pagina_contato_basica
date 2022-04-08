@@ -8,17 +8,20 @@
 #main-container {
   display: flex;
   height: 100vh;
+  flex-wrap: wrap;
 }
 #address-container,
 #form-container {
-  flex: 1 1 0;
+  flex: 1 1 350px;
 }
 #address-container {
   background-image: url('../img/project_bg.jpg');
   background-size: cover;
   background-position-x: -120px;
+  min-height: 80vh;
   color: #fff;
   position: relative;
+  display: flex;
 }
 .fade {
   width: 100%;
@@ -55,6 +58,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
 }
 #contact-form {
   display: flex;
