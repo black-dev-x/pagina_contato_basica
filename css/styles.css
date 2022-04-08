@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+#main-container {
+  display: flex;
+  height: 100vh;
+}
+#address-container,
+#form-container {
+  flex: 1 1 0;
+}
+#address-container {
+  background-image: url('../img/project_bg.jpg');
+  background-size: cover;
+  background-position-x: -120px;
+  color: #fff;
+  position: relative;
+}
+.fade {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.3;
+  background-color: black;
+}
+.address-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6vh;
+}
+.address-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  width: 200px;
+}
+.address-content h2 {
+  color: #00ad5e;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+#form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+#contact-form h2 {
+  color: #888;
+  font-size: 30px;
+  padding: 10px;
+}
+#contact-form div {
+  display: flex;
+  flex-direction: column;
+}
+#contact-form input,
+#contact-form textarea,
+#contact-form label {
+  padding: 10px;
+  color: #888;
+  border: 1px solid #eee;
+}
+#contact-form label {
+  border-bottom: 0;
+}
+#contact-form input[type='submit'] {
+  background-color: #00ad5e;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
